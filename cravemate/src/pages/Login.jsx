@@ -21,7 +21,10 @@ function Login() {
           <span class="shrink mx-4 text-gray-400">OR</span>
           <div class="grow border-t border-gray-400"></div>
           <br></br>
-          
+          <p> Sign in With Google </p>
+        </div>
+        <div class="flex justify-center">
+          Dont have an account? <a href="/signup" class="text-blue-500"> Sign Up</a>
         </div>
       </form>
     </div>
