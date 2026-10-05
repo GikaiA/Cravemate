@@ -3,8 +3,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-neutral-primary-soft rounded-base shadow-xs border border-default m-4 ">
-      <div className="w-full mx-auto max-w-7xl p-4 md:flex md:items-center md:justify-between">
+    <footer className="bg-neutral-primary-soft rounded-base shadow-xs border border-default">
+      <div className="w-full mx-auto p-4 md:flex md:items-center md:justify-between">
         <span className="text-sm text-body sm:text-center">
           © 2023{" "}
           <a href="https://flowbite.com/" className="hover:underline">
@@ -20,16 +20,11 @@ function Footer() {
           </li>
           <li>
             <a href="#" className="hover:underline me-4 md:me-6">
-              Privacy Policy
+             Github
             </a>
           </li>
           <li>
             <a href="#" className="hover:underline me-4 md:me-6">
-              Licensing
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:underline">
               Contact
             </a>
           </li>
