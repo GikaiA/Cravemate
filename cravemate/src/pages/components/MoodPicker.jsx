@@ -1,10 +1,10 @@
 import React from 'react';
 
-const moods = ['Happy', 'Sad', 'Excited', 'Angry', 'Romantic'];
+const moods = ['Happy 😀', 'Sad 😢', 'Excited 😃', 'Angry 😡 ', 'Romantic 😍'];
 
 export default function MoodPicker({ onSelect }) {
   return (
-    <div className="grid grid-cols-2 gap-4">
+    <div className="flex justify-center gap-4 text-align">
       {moods.map((mood) => (
         <button
           key={mood}
