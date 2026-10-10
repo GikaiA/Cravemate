@@ -6,11 +6,12 @@ import Navbar from './pages/components/Navbar';
 import Footer from './pages/components/Footer';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import { AuthProvider } from './context/AuthContext';
 function App() {
- 
+
 
   return (
-    <>
+    <AuthProvider>
      <BrowserRouter>
      <Navbar />
      <main className="flex-1">
@@ -22,7 +23,7 @@ function App() {
      </main>
      <Footer />
      </BrowserRouter>
-    </>
+    </AuthProvider>
   )
 }
 

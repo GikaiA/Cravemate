@@ -4,7 +4,7 @@ const moods = ['Happy', 'Sad', 'Excited', 'Angry', 'Romantic'];
 
 export default function MoodPicker({ onSelect }) {
   return (
-    <div className="grid grid-cols-2 gap-4">
+    <div className="grid grid-cols-2 gap-4 w-48 ">
       {moods.map((mood) => (
         <button
           key={mood}
