@@ -1,6 +1,6 @@
 import React from 'react';
 
-const moods = ['Happy', 'Sad', 'Excited', 'Angry', 'Romantic'];
+const moods = ['Happy 😀', 'Sad 😢', 'Excited 😃', 'Angry 😡 ', 'Romantic 😍'];
 
 export default function MoodPicker({ onSelect }) {
   return (
